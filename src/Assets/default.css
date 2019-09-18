@@ -1,0 +1,152 @@
+.font-family {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.email {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+.email__header {
+    line-height: 2em;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.email__header-name {
+    font-size: 1.5em;
+    color: #CC0000;
+    text-decoration: none;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.email__body {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.email__footer {
+    line-height: 2em;
+    color: #DDDDDD;
+    background-color: #140F54;
+    text-align: center;
+}
+
+.email__footer-text {
+    color: #DDDDDD;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.email__footer-link {
+    color: #DDDDDD;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.title {
+    margin-top: 0;
+    color: #140F54;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.paragraph {
+    margin: 0 0 1rem 0;
+    color: #363636;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+.table__row {
+    border-collapse: collapse;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.table__col {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #363636;
+    padding: 0.5rem;
+}
+
+.table__header {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #666666;
+    padding: 0.5rem;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.center {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.anchor {
+    margin: 0 0 1rem 0;
+    display: block;
+    color: #3d63a9;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.item_id {
+    color: #666666;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.item_name {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.item_price {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.item_quantity {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.item_cost {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.table-link {
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+}

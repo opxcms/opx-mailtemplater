@@ -1,0 +1,35 @@
+{
+  "name": "opxcms/opx-mailtemplater",
+  "description": "OpxCMS mailtemplater module.",
+  "type": "library",
+  "keywords": [
+    "opxcms",
+    "mailtemplater",
+    "module"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/opxcms/opx-mailtemplater/issues",
+    "source": "https://github.com/opxcms/opx-mailtemplater"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcms@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "opxcms/opx-foundation": "^1.0.1",
+    "tijsverkoyen/css-to-inline-styles": "2.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Opx\\MailTemplater\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
