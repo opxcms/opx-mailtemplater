@@ -31,5 +31,10 @@
       "Modules\\Opx\\MailTemplater\\": "src/"
     }
   },
+  "extra": {
+    "opxcms" : {
+      "module": "Modules\\Opx\\MailTemplater\\MailTemplater"
+    }
+  },
   "minimum-stability": "dev"
 }
