@@ -8,6 +8,12 @@ use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 
 class MailTemplater extends BaseModule
 {
+    /** @var string  Module name */
+    protected $name = 'opx_mail_templater';
+
+    /** @var string  Module path */
+    protected $path = __DIR__;
+
     /**
      * Make mail template.
      *
