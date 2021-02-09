@@ -60,12 +60,12 @@ class MailTemplater extends BaseModule
     /**
      * Compile inline styles.
      *
-     * @param  string $html
-     * @param  string $css
+     * @param string $html
+     * @param string $css
      *
      * @return  string
      */
-    protected function compileInlineCss($html, $css): string
+    protected function compileInlineCss(string $html, string $css): string
     {
         $compiler = new CssToInlineStyles();
 
@@ -101,13 +101,13 @@ class MailTemplater extends BaseModule
     /**
      * Make header
      *
-     * @param  string $text
-     * @param  int $level
-     * @param  null|string|array $classes
+     * @param string $text
+     * @param int $level
+     * @param null|string|array $classes
      *
      * @return  string
      */
-    public function title($text, $level = 1, $classes = null):string
+    public function title(string $text, $level = 1, $classes = null):string
     {
         return "<h{$level} class=\"{$this->mergeClasses('title', $classes)}\">{$text}</h{$level}>";
     }
@@ -115,27 +115,27 @@ class MailTemplater extends BaseModule
     /**
      * Make anchor.
      *
-     * @param  string $text
-     * @param  string $link
-     * @param  bool $newWindow
-     * @param  null|string|array $classes
+     * @param string $text
+     * @param string $link
+     * @param bool $newWindow
+     * @param null|string|array $classes
      *
      * @return string
      */
-    public function anchor($text, $link, $newWindow = true, $classes = null):string
+    public function anchor(string $text, string $link, $newWindow = true, $classes = null):string
     {
-        return "<a href=\"{$link}\" class=\"{$this->mergeClasses('anchor', $classes)}\"".($newWindow ? ' target="_blank"' : '').">{$text}</a>";
+        return "<a href=\"{$link}\" class=\"{$this->mergeClasses('anchor', $classes)}\" ".($newWindow ? 'target="_blank"' : '').">{$text}</a>";
     }
 
     /**
      * Merge classes.
      *
-     * @param  string $class
-     * @param  string|array|null $classes
+     * @param string $class
+     * @param string|array|null $classes
      *
      * @return  string
      */
-    protected function mergeClasses($class, $classes): string
+    protected function mergeClasses(string $class, $classes): string
     {
         if(is_string($classes)) {
             $class .= ' '.$classes;
